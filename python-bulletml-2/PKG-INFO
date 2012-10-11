@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: python-bulletml
+Version: 2
+Summary: parse and run BulletML scripts
+Home-page: http://code.google.com/p/python-bulletml/
+Author: Joe Wreschnig
+Author-email: joe.wreschnig@gmail.com
+License: MIT-style
+Description: BulletML is the Bullet Markup Language. BulletML can describe the
+        barrage of bullets in shooting games. (For example Progear, Psyvariar,
+        Gigawing2, G DARIUS, XEVIOUS, ...) This module parses and executes
+        BulletML scripts in Python. All data structures in it are
+        renderer-agnostic.
+        
+        In addition to the standard BulletML XML format, this module supports
+        an equivalent YAML format.
+        
+        Finally, two simple collision routines are provided, bulletml.overlaps
+        for stationary circles and bulletml.collides for moving circles.
+        
+        A sample renderer for Pygame is included.
+        
+        More information is available at the BulletML homepage,
+        http://www.asahi-net.or.jp/~cs8k-cyu/bulletml/index_e.html, or the
+        python-bullet homepage, http://code.google.com/p/python-bulletml/.
+        
+Platform: UNKNOWN

@@ -1,4 +1,4 @@
-pyshmup
-=======
+ludum_dare_24
+=============
 
-Schmup sample using pygame, Box2D and BulletML
+90sml entry for Ludum Dare # 24
