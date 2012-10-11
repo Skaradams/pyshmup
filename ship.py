@@ -59,7 +59,7 @@ class Ship(Actor):
     def on_space_pressed(self):
         (x,y) = self.position()
         # self._bullets.append(Bullet((x+1.0, y)))
-        path = os.path.join(os.path.dirname(__file__), 'python-bulletml-2', 'examples', 'normal', 's-fall.xml')
+        path = os.path.join(os.path.dirname(__file__), 'python-bulletml-2', 'examples', 'boss', '[Psyvariar]_X-A_boss_opening.xml')
         self._bullets.append(BulletPattern((x+1.0, y), path, self._level))
 
     def on_space_released(self):

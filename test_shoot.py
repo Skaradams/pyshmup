@@ -8,7 +8,6 @@ sys.path.append(os.path.abspath(
 from sandbox import SandBox
 
 def run():
-    import settings
 
     from bloodyhell.game import Game
 
